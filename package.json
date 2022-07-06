@@ -1,0 +1,23 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernandanielzamora/Zeta-Store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hernandanielzamora/Zeta-Store/issues"
+  },
+  "homepage": "https://github.com/hernandanielzamora/Zeta-Store#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
