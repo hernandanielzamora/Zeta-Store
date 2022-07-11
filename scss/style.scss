@@ -51,22 +51,6 @@ body {
     margin-top: 8%;
 }
 
-.btn {
-    margin: 5% 1.5%;
-    width: 180px;
-    height: 60px;
-    cursor: pointer;
-    background: transparent;
-    border: 1px solid #a0dddb;
-    outline: none;
-    transition: 0.7s ease-in-out;
-    &:hover{
-        transition: 0.8s ease-in-out;
-        background: #9900ff;
-        box-shadow:0 0 1.5em #9900ff;
-    }
-}
-
 .main__minititle {
     text-shadow: 1px 1px 20px #00fcf5;
     color: #00fcf5;
@@ -83,7 +67,7 @@ body {
     margin: 2%;
     &:hover {
         box-shadow:0 0 1em #00fcf5;
-        transition: 0.5s ease-in-out
+        transition: 0.5s ease-in-out;
     }
 }
 
@@ -94,6 +78,73 @@ body {
 .list-group-item, .card-title {
     color: white;
 }
+
+/* BOTONES */
+.btn {
+    margin: 5% 1.5%;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #a0dddb;
+    outline: none;
+    transition: 0.7s ease-in-out;
+    &:hover{
+        transition: 0.8s ease-in-out;
+        background: #9900ff;
+        box-shadow:0 0 1.5em #9900ff;
+    }
+}
+
+.btn-rifles {
+    &:hover{
+        transition: 0.8s ease-in-out;
+        background: #ff0000;
+        box-shadow:0 0 1.5em #ff0000;
+    }
+}
+
+.btn-pistolas {
+    &:hover {
+        transition: 0.8s ease-in-out;
+        background: #00f7ff;
+        box-shadow:0 0 1.5em #00f7ff;
+    }
+}
+
+.btn-cuchillos {
+    &:hover {
+        transition: 0.8s ease-in-out;
+        background: #003cff;
+        box-shadow:0 0 1.5em #003cff;
+    }
+}
+
+
+.btn-agentes {
+    &:hover {
+        transition: 0.8s ease-in-out;
+        background: #ff0062;
+        box-shadow:0 0 1.5em #ff0062;
+    }
+}
+
+.btn-subfusiles {
+    &:hover {
+        transition: 0.8s ease-in-out;
+        background: #ffa600;
+        box-shadow:0 0 1.5em #ffa600;
+    }
+}
+
+.btn-guantes {
+    &:hover {
+        transition: 0.8s ease-in-out;
+        background: #524939;
+        box-shadow:0 0 1.5em #524939;
+    }
+}
+
 
 
 /* Footer */
