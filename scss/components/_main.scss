@@ -1,0 +1,34 @@
+
+
+/* MAIN: index.html*/
+.main {
+    margin-top: 8%;
+}
+
+.main__minititle {
+    text-shadow: 1px 1px 20px #00fcf5;
+    color: #00fcf5;
+    margin: 5%;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: 2%;
+    &:hover {
+        box-shadow:0 0 1em #00fcf5;
+        transition: 0.5s ease-in-out;
+    }
+}
+
+.card-title {
+    text-align: center;
+}
+
+.list-group-item, .card-title {
+    color: white;
+}

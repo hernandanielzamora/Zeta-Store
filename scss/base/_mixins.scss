@@ -1,0 +1,5 @@
+@mixin button-style ($transition, $background, $box-shadow) {
+    transition: $transition;
+    background: $background;
+    box-shadow: $box-shadow;
+}

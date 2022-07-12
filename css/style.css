@@ -12,6 +12,10 @@ body {
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(1, 13, 43) 79%);
 }
 
+.logo {
+  width: 50px;
+}
+
 /* Header */
 .carousel-item {
   height: 65vh;
@@ -75,18 +79,69 @@ body {
   color: white;
 }
 
-/* BOTONES */
-.btn {
+/* FAQ */
+.accordion-button {
+  text-align: center;
+}
+.accordion-button:not(.collapsed) {
+  color: #00f7ff;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.faq-text {
+  color: white;
+  text-align: center;
+}
+
+.contenedor-acordeon-grande {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-acordeon {
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+}
+
+.faq-link {
+  color: #00f7ff;
+}
+.faq-link:hover {
+  color: #00f7ff;
+}
+
+.lista-faq {
+  display: flex;
+  margin: 2%;
+  color: #00f7ff;
+  list-style-type: none;
+}
+
+.lista-faq-item {
+  margin: 2%;
+  font-weight: 400;
+}
+
+.contenedor-img {
+  width: 50%;
+}
+
+.btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
   margin: 5% 1.5%;
   width: 180px;
   height: 60px;
-  cursor: pointer;
+  cursor: crosshair;
   background: transparent;
   border: 1px solid #a0dddb;
   outline: none;
   transition: 0.7s ease-in-out;
 }
-.btn:hover {
+
+/* BOTONES */
+.btn-index:hover {
   transition: 0.8s ease-in-out;
   background: #9900ff;
   box-shadow: 0 0 1.5em #9900ff;
@@ -141,6 +196,17 @@ footer {
 }
 footer a {
   margin: 3%;
+}
+
+.btn-index, .btn-rifles, .btn-pistolas, .btn-cuchillos, .btn-agentes, .btn-subfusiles, .btn-guantes {
+  margin: 5% 1.5%;
+  width: 180px;
+  height: 60px;
+  cursor: crosshair;
+  background: transparent;
+  border: 1px solid #a0dddb;
+  outline: none;
+  transition: 0.7s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */

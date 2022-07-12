@@ -1,0 +1,54 @@
+
+/* FAQ */
+.accordion-button {
+    text-align: center;
+    &:not(.collapsed){
+        color: #00f7ff;
+    }
+    &:focus {
+        
+        box-shadow: none;
+    }
+}
+.faq-text {
+    color: white;
+    text-align: center;
+}
+
+.contenedor-acordeon-grande {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-acordeon {
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+}
+
+.faq-link {
+    color: #00f7ff;;
+    &:hover {
+        color: #00f7ff;;
+    }
+}
+
+.lista-faq {
+    display: flex;
+    margin: 2%;
+    color: #00f7ff;
+    list-style-type: none;
+}
+
+.lista-faq-item {
+    margin: 2%;
+    font-weight: 400;
+}
+
+.contenedor-img {
+    width: 50%;
+}
+
+
+
+
+

@@ -1,0 +1,54 @@
+@import "extends";
+@import "mixins";
+
+/* BOTONES */
+.btn-index {
+    @extend %button;
+    &:hover {
+        @include button-style (0.8s ease-in-out, #9900ff, 0 0 1.5em #9900ff)
+    }
+}
+
+.btn-rifles {
+    @extend %button;
+    &:hover{
+        @include button-style (0.8s ease-in-out, #ff0000, 0 0 1.5em #ff0000)
+    }
+}
+
+.btn-pistolas {
+    @extend %button;
+    &:hover {
+        @include button-style (0.8s ease-in-out,#00f7ff,0 0 1.5em #00f7ff);
+
+    }
+}
+
+.btn-cuchillos {
+    @extend %button;
+    &:hover {
+        @include button-style (0.8s ease-in-out,#003cff,0 0 1.5em #003cff);
+    }
+}
+
+
+.btn-agentes {
+    @extend %button;
+    &:hover {
+        @include button-style (0.8s ease-in-out,#ff0062,0 0 1.5em #ff0062);
+    }
+}
+
+.btn-subfusiles {
+    @extend %button;
+    &:hover {
+        @include button-style (0.8s ease-in-out,#ffa600,0 0 1.5em #ffa600);
+    }
+}
+
+.btn-guantes {
+    @extend %button;
+    &:hover {
+        @include button-style (0.8s ease-in-out,#524939,0 0 1.5em #524939);
+    }
+}
