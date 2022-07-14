@@ -1,0 +1,19 @@
+.contenedor-venta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin-top: 10%;
+    text-align: justify;
+    border: 1px double rgba(0, 255, 255, 0.644);
+
+        .venta-text {
+            font-size: 20px;
+            color: #00fcf5;
+        }
+        .imagen-venta {
+            margin: 5%;
+            display: flex;
+            justify-content: center;
+        }
+}

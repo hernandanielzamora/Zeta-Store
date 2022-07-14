@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="media/ico.ico">
+    <meta name="description" content="Página web de ZETA STORE, una tienda online de skins de Counter Strike Global Offensive, con los mejores precios y las mejores ofertas, para que armes tu inventario soñado y a tu gusto. Sabemos el enorme valor que puede tener un buen inventario.">
+    <meta name="keywords" content="CSGO, Counter Strike, Counter Strike Global Offensive, Skins, Steam, Inventario, AWP, AK-47, M4A4">
+    <meta property="og:title" content="ZETA STORE, las mejores skins al mejor precio."/>
+    <meta property="og:description" content="Página web de ZETA STORE, una tienda online de skins de Counter Strike Global Ofensive, con los mejores precios y las mejores ofertas, para que armes tu inventario soñado y a tu gusto. Sabemos el enorme valor que puede tener un buen inventario." />
+    <meta property="og:image" content="imagen.webp" />
+    <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+
+    <!-- Link AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Link Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -15,11 +24,11 @@
     <!-- Link Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
 
-    <title> ZETA store</title>
+    <title> ZETA STORE, las mejores skins al mejor precio. </title>
 
 </head>
 
-<body style="background-image: url(../media/wallpaper3.jpg); background-position:top center;">
+<body style="background-image: url(../media/wallpaper3.jpg); background-position:top center;" data-aos="fade-down">
 
     <!-- Inicio Header / NavBar -->
     <header>
@@ -57,20 +66,16 @@
         <div class="carousel-inner">
           <div class="carousel-item active" style="background-image: url(media/carrousel1.jpg)">
             <div class="carousel-caption">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5 class="main__minititle">BIENVENIDO A ZETA STORE</h5>
             </div>
           </div>
           <div class="carousel-item" style="background-image: url(media/carrousel4.jpg)">
             <div class="carousel-caption">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item" style="background-image: url(media/carrousel3.jpg)">
             <div class="carousel-caption">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5 class="main__minititle">LAS MEJORES SKINS, AL MEJOR PRECIO</h5>
             </div>
           </div>
         </div>
@@ -87,14 +92,15 @@
     <!-- Fin Header -->
 
 
+    <!-- Sección Botones -->
     <main class="main">
 
         <!-- Menú de secciones + botones -->
-        <section>
+        <section data-aos="fade-down">
             <div>
                 <h1  class="main__minititle">Comprá las mejores skins al mejor precio</h1>
             </div>
-            <div>
+            <div >
                 <a href="guns/rifles.html"><button type="button" class="btn btn-dark btn-index">RIFLES</button></a>
                 <a href="guns/pistolas.html"><button type="button" class="btn btn-dark btn-index">PISTOLAS</button></a>
                 <a href="guns/cuchillos.html"><button type="button" class="btn btn-dark btn-index">CUCHILLOS</button></a>
@@ -103,12 +109,54 @@
                 <a href="guns/guantes.html"><button type="button" class="btn btn-dark btn-index">GUANTES</button></a>
             </div>
         </section>
-     
     </main>
+    <!-- Fin sección botones -->
+
+    <!-- Inicio Sección Muestra -->
+    <h2  class="main__minititle" data-aos="fade-down">Conocé algunas de las mejores armas del catálogo</h2>
+    <h3 class="main__minititle" data-aos="fade-down">Poné tu mouse sobre la imágen y buscá tu skin en nuestro catálogo!</h3>
+    <section class="contenedor contenedor-seccion-promociones" data-aos="fade-down">
+      <img src="media/wallpaper-agentes-enfrentados.png" alt="" style="z-index: 1;" class="contenedor-promocion">
+      <div class="contenedor contenedor-promocion-abajo">                   
+          <div class="card bg-dark card-promocion" style="width: 18rem;">
+              <a href="https://ibb.co/3YSP5SD" target="_blank"><img src="../media/dk printstream.jpeg" class="card-img-top" alt="DK | Printstream"></a>
+              <div class="card-body card-promocion-title">
+              <h5 class="card-title">DK | PRINTSTREAM</h5>
+              </div>
+              <ul class="list-group list-group-flush ">
+              <li class="list-group-item bg-dark card-promocion-item">FLOAT: 0.556 </li>
+              <li class="list-group-item bg-dark card-promocion-item">ESTADO: Bastante desgastado </li>
+              <li class="list-group-item bg-dark card-promocion-item">ENTREGA: Inmediata </li>
+              </ul>
+          </div>
+          <div class="card bg-dark card-promocion" style="width: 18rem;">
+            <a href="https://i.imgur.com/gTO7435.png" target="_blank"><img src="../media/awp wildfire.png" class="card-img-top" alt="AWP WILDFIRE"></a>
+            <div class="card-body bg-dark card-promocion-title">
+            <h5 class="card-title">AWP | WILDIFRE</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-dark card-promocion-item">FLOAT: 0.221 </li>
+            <li class="list-group-item bg-dark card-promocion-item">ESTADO: Algo Desgastado </li>
+            <li class="list-group-item bg-dark card-promocion-item">ENTREGA: Inmediata </li>
+            </ul>
+        </div>
+        <div class="card bg-dark card-promocion"" style="width: 18rem;">
+          <a href="https://i.imgur.com/7vnYXUr.png" target="_blank"><img src="../media/ak aquamarina.png" class="card-img-top" alt="AK-47 | VENGANZA AQUAMARINA"></a>
+          <div class="card-body card-promocion-title">
+          <h5 class="card-title">AK-47 | VENGANZA AQUAMARINA</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-dark card-promocion-item">FLOAT: 0.429 </li>
+          <li class="list-group-item bg-dark card-promocion-item">ESTADO: Bastante Desgastado </li>
+          <li class="list-group-item bg-dark card-promocion-item">ENTREGA: Inmediata </li>
+          </ul>
+      </div>
+    </section>
+       <!-- Fin Sección Muestra -->
+
 
     <!-- Footer -->   
     <footer class=" text-center text-white">
-        <a href="#"><img src="media/whatsapp.png" alt="Logo Whatsapp" class="footer__whatsapp"></a>
         <!-- Grid container -->
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->
@@ -120,7 +168,7 @@
             <a href="https://twitter.com/store_zeta" target="_blank"><ion-icon name="logo-twitter" class="logo"></ion-icon></a>
       
             <!-- Whatsappp -->
-            <a href="" target="_blank"><ion-icon name="logo-whatsapp" class="logo"></ion-icon></a>
+            <a href="https://wa.me/5493886867663?text=Hola%20te%20hablo%20desde%20la%20pág%20del%20store" target="_blank"><ion-icon name="logo-whatsapp" class="logo"></ion-icon></a>
       
           </section>
           <!-- Section: Social media -->
@@ -137,7 +185,11 @@
     <!-- Fin Footer -->
     
 
-
+    <!-- Link AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- Link Boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

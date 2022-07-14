@@ -1,0 +1,22 @@
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: 2%;
+    &:hover {
+        box-shadow:0 0 1em #00fcf5;
+        transition: 0.5s ease-in-out;
+    }
+}
+
+.card-title {
+    text-align: center;
+}
+
+.list-group-item, .card-title {
+    color: white;
+    font-size: larger;
+}
+

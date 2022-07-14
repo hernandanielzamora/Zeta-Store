@@ -19,8 +19,9 @@ body {
 @import "components/header";
 @import "components/main";
 @import "components/faq";
+@import "../scss/components/productos";
 @import "../scss/base/buttons";
 @import "../scss/components/footer";
-@import "../scss/base/extends";
-@import "../scss/base/mixins";
-
+@import "../scss/components/promocion";
+@import "../scss/components/conocenos";
+@import "../scss/components/venta";

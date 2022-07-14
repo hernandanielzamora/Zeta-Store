@@ -1,0 +1,36 @@
+@import "../base/variables";
+/* Promociones */
+.contenedor-seccion-promociones {
+    margin-top: 10%;
+    .contenedor-promocion-abajo {
+        position: absolute;
+      }
+    .card-promocion {
+        border: $border-promociones;
+        box-shadow: 0 0 1em #00fcf5;
+    }
+}
+
+.card-promocion-item {
+    border-top: $border-promociones;
+    border-bottom: $border-promociones;
+}
+.card-promocion-title {
+    border-top: $border-promociones;
+}
+
+.contenedor-promocion {
+    position: relative;
+    width: 65%;
+    height: 430px;
+    border-radius: 20px;
+    z-index: 1;
+    transition: 0.5s;
+    &:hover {
+        opacity: 0;
+        transition: visibility 0s 0.5s, opacity 0.5s linear;
+    }
+
+      
+}
+  
