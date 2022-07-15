@@ -1,6 +1,11 @@
+/* Products */
 .contenedor {
     display: flex;
     justify-content: space-evenly;
+    @media screen and (max-width: 480px) {
+        justify-content: space-around;
+    }
+
 }
 
 .card {
@@ -8,6 +13,9 @@
     &:hover {
         box-shadow:0 0 1em #00fcf5;
         transition: 0.5s ease-in-out;
+    }
+    @media screen and (max-width: 480px) {
+        width: 33%;
     }
 }
 
@@ -18,5 +26,11 @@
 .list-group-item, .card-title {
     color: white;
     font-size: larger;
+    @media screen and (max-width: 480px) {
+        font-size: 10px;
+    }
+    @media only screen and (min-width: 469px) and (max-width: 960px) {
+        font-size: 15px;   
+    }
 }
 

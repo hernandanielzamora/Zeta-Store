@@ -7,6 +7,7 @@
     &:hover {
         @include button-style (0.8s ease-in-out, #9900ff, 0 0 1.5em #9900ff)
     }
+
 }
 
 .btn-rifles {
@@ -51,4 +52,15 @@
     &:hover {
         @include button-style (0.8s ease-in-out,#524939,0 0 1.5em #524939);
     }
+}
+
+.div-botones {
+    @media screen and (max-width: 480px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
 }

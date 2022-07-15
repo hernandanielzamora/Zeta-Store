@@ -1,3 +1,4 @@
+/* Section Venta */
 .contenedor-venta {
     display: flex;
     flex-direction: column;
@@ -10,6 +11,9 @@
         .venta-text {
             font-size: 20px;
             color: #00fcf5;
+            @media screen and (max-width: 480px) {
+                font-size: 15px;
+            }
         }
         .imagen-venta {
             margin: 5%;

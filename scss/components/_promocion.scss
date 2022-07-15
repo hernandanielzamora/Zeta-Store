@@ -2,12 +2,25 @@
 /* Promociones */
 .contenedor-seccion-promociones {
     margin-top: 10%;
+
     .contenedor-promocion-abajo {
         position: absolute;
       }
     .card-promocion {
         border: $border-promociones;
         box-shadow: 0 0 1em #00fcf5;
+        
+    }
+    .cardprom-2 {
+        @media screen and (max-width: 480px){
+            display: none;
+        }
+    }
+    .cardprom-3 {
+        @media only screen and (min-width: 469px) and (max-width: 960px) {
+            display: none;
+        }
+        
     }
 }
 
@@ -30,7 +43,23 @@
         opacity: 0;
         transition: visibility 0s 0.5s, opacity 0.5s linear;
     }
+    @media screen and (max-width: 348px) {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 4%;
+    }
+    @media screen and (max-width: 480px) {
+        width: 80%;
+        height: 350px;
+        margin-bottom: 4%;
+    }
+    @media only screen and (min-width: 481px) and (max-width: 960px) {
+        width: 80%;
+    }
 
-      
+    @media only screen and (min-width: 961px) and (max-width: 1024px) {
+        width: 90%;
+    }
+
 }
   

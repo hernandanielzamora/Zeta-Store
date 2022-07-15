@@ -57,6 +57,11 @@ body {
   margin: 5%;
   text-align: center;
 }
+@media screen and (max-width: 480px) {
+  .main__minititle {
+    font-size: 20px;
+  }
+}
 
 /* FAQ */
 .accordion-button {
@@ -72,6 +77,11 @@ body {
 .faq-text {
   color: white;
   text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .faq-text {
+    font-size: 15px;
+  }
 }
 
 .contenedor-acordeon-grande {
@@ -98,6 +108,12 @@ body {
   color: #00f7ff;
   list-style-type: none;
 }
+@media screen and (max-width: 480px) {
+  .lista-faq {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .lista-faq-item {
   margin: 2%;
@@ -108,9 +124,15 @@ body {
   width: 50%;
 }
 
+/* Products */
 .contenedor {
   display: flex;
   justify-content: space-evenly;
+}
+@media screen and (max-width: 480px) {
+  .contenedor {
+    justify-content: space-around;
+  }
 }
 
 .card {
@@ -119,6 +141,11 @@ body {
 .card:hover {
   box-shadow: 0 0 1em #00fcf5;
   transition: 0.5s ease-in-out;
+}
+@media screen and (max-width: 480px) {
+  .card {
+    width: 33%;
+  }
 }
 
 .card-title {
@@ -129,6 +156,18 @@ body {
   color: white;
   font-size: larger;
 }
+@media screen and (max-width: 480px) {
+  .list-group-item, .card-title {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 469px) and (max-width: 960px) {
+  .list-group-item, .card-title {
+    font-size: 15px;
+  }
+}
+
+/* Botones */
 
 .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
   margin: 5% 1.5%;
@@ -140,8 +179,24 @@ body {
   outline: none;
   transition: 0.7s ease-in-out;
 }
+@media only screen and (min-width: 469px) and (max-width: 960px) {
+  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+    margin: 4.3%;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+    margin: 6%;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1480px) and (max-width: 2560px) {
+  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+    margin: 0.3%;
+    width: 400px;
+  }
+}
 
-/* BOTONES */
 .btn-index:hover {
   transition: 0.8s ease-in-out;
   background: #9900ff;
@@ -184,6 +239,16 @@ body {
   box-shadow: 0 0 1.5em #524939;
 }
 
+@media screen and (max-width: 480px) {
+  .div-botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+
 /* Footer */
 .footer__whatsapp {
   position: fixed;
@@ -210,6 +275,16 @@ footer a {
   border: 2px #00f7ff solid;
   box-shadow: 0 0 1em #00fcf5;
 }
+@media screen and (max-width: 480px) {
+  .contenedor-seccion-promociones .cardprom-2 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 469px) and (max-width: 960px) {
+  .contenedor-seccion-promociones .cardprom-3 {
+    display: none;
+  }
+}
 
 .card-promocion-item {
   border-top: 2px #00f7ff solid;
@@ -232,16 +307,52 @@ footer a {
   opacity: 0;
   transition: visibility 0s 0.5s, opacity 0.5s linear;
 }
+@media screen and (max-width: 348px) {
+  .contenedor-promocion {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 4%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contenedor-promocion {
+    width: 80%;
+    height: 350px;
+    margin-bottom: 4%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .contenedor-promocion {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+  .contenedor-promocion {
+    width: 90%;
+  }
+}
 
 /* conocenos.html */
 .div-conocenos img {
   width: 50%;
+}
+@media screen and (max-width: 480px) {
+  .div-conocenos img {
+    width: 80%;
+    margin: 5%;
+  }
+}
+@media only screen and (min-width: 469px) and (max-width: 960px) {
+  .div-conocenos img {
+    width: 80%;
+  }
 }
 .div-conocenos a {
   display: flex;
   justify-content: center;
 }
 
+/* Section Venta */
 .contenedor-venta {
   display: flex;
   flex-direction: column;
@@ -254,6 +365,11 @@ footer a {
 .contenedor-venta .venta-text {
   font-size: 20px;
   color: #00fcf5;
+}
+@media screen and (max-width: 480px) {
+  .contenedor-venta .venta-text {
+    font-size: 15px;
+  }
 }
 .contenedor-venta .imagen-venta {
   margin: 5%;

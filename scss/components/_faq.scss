@@ -6,13 +6,15 @@
         color: #00f7ff;
     }
     &:focus {
-        
         box-shadow: none;
     }
 }
 .faq-text {
     color: white;
     text-align: center;
+    @media screen and (max-width: 480px) {
+        font-size: 15px;
+    }
 }
 
 .contenedor-acordeon-grande {
@@ -37,6 +39,10 @@
     margin: 2%;
     color: #00f7ff;
     list-style-type: none;
+    @media screen and (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .lista-faq-item {
