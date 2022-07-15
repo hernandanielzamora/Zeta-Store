@@ -167,10 +167,8 @@ body {
   }
 }
 
-/* Botones */
-
 .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
-  margin: 5% 1.5%;
+  margin: 5% 1%;
   width: 180px;
   height: 60px;
   cursor: crosshair;
@@ -197,6 +195,7 @@ body {
   }
 }
 
+/* BOTONES */
 .btn-index:hover {
   transition: 0.8s ease-in-out;
   background: #9900ff;
