@@ -1,3 +1,4 @@
+@import "../base/variables";
 
 /* MAIN: index.html*/
 .main {
@@ -5,8 +6,8 @@
 }
 
 .main__minititle {
-    text-shadow: 1px 1px 20px #00fcf5;
-    color: #00fcf5;
+    text-shadow: $main-shadow;
+    color: $main-color;
     margin: 5%;
     text-align: center;
     @media screen and (max-width: 480px) {

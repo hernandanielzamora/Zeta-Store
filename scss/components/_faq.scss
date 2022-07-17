@@ -1,9 +1,10 @@
+@import "../base/variables";
 
 /* FAQ */
 .accordion-button {
     text-align: center;
     &:not(.collapsed){
-        color: #00f7ff;
+        color: $main-color;
     }
     &:focus {
         box-shadow: none;
@@ -28,16 +29,16 @@
 }
 
 .faq-link {
-    color: #00f7ff;;
+    color: $main-color;;
     &:hover {
-        color: #00f7ff;;
+        color: $main-color;;
     }
 }
 
 .lista-faq {
     display: flex;
     margin: 2%;
-    color: #00f7ff;
+    color: $main-color;
     list-style-type: none;
     @media screen and (max-width: 480px) {
         display: flex;

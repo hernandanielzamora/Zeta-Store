@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 /* Section Venta */
 .contenedor-venta {
     display: flex;
@@ -6,11 +8,11 @@
     width: 70%;
     margin-top: 10%;
     text-align: justify;
-    border: 1px double rgba(0, 255, 255, 0.644);
+    border: $border-promociones;
 
         .venta-text {
             font-size: 20px;
-            color: #00fcf5;
+            color: $main-color;
             @media screen and (max-width: 480px) {
                 font-size: 15px;
             }
@@ -19,5 +21,12 @@
             margin: 5%;
             display: flex;
             justify-content: center;
+            img {
+                width: 50%;
+                @media screen and (max-width: 480px) {
+                    width: 100%;
+                }
+            }
+            
         }
 }

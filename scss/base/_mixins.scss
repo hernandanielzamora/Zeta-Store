@@ -3,3 +3,9 @@
     background: $background;
     box-shadow: $box-shadow;
 }
+
+@mixin imagen-prom-responsive ($width, $height, $margin-bottom) {
+    width: $width;
+    height: $height;
+    margin-bottom: $margin-bottom;
+}

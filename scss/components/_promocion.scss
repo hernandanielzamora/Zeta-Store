@@ -1,5 +1,7 @@
 @import "../base/variables";
-/* Promociones */
+@import "../base/mixins";
+
+/* Promociones (index.html) */
 .contenedor-seccion-promociones {
     margin-top: 10%;
 
@@ -8,7 +10,7 @@
       }
     .card-promocion {
         border: $border-promociones;
-        box-shadow: 0 0 1em #00fcf5;
+        box-shadow: 0 0 1em $main-color;
         
     }
     .cardprom-2 {
@@ -44,14 +46,11 @@
         transition: visibility 0s 0.5s, opacity 0.5s linear;
     }
     @media screen and (max-width: 348px) {
-        width: 100%;
-        height: 350px;
-        margin-bottom: 4%;
+        @include imagen-prom-responsive (100%, 350px, 4%);
     }
     @media screen and (max-width: 480px) {
-        width: 80%;
-        height: 350px;
-        margin-bottom: 4%;
+        @include imagen-prom-responsive (80%, 350px, 4%);
+
     }
     @media only screen and (min-width: 481px) and (max-width: 960px) {
         width: 80%;
