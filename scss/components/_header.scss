@@ -10,7 +10,10 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
+nav {
+    background: rgb(4,4,4);
+    background: linear-gradient(80deg, rgba(4,4,4,1) 0%, rgba(16,16,18,1) 91%);
+}
 .navbar-brand{
     color: rgb(255, 255, 255);
     &:hover {

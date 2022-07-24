@@ -27,6 +27,11 @@ body {
   background-size: cover;
 }
 
+nav {
+  background: rgb(4, 4, 4);
+  background: linear-gradient(80deg, rgb(4, 4, 4) 0%, rgb(16, 16, 18) 91%);
+}
+
 .navbar-brand {
   color: rgb(255, 255, 255);
 }
@@ -258,7 +263,8 @@ body {
 }
 
 footer {
-  margin-top: 5%;
+  background: rgb(4, 4, 4);
+  background: linear-gradient(80deg, rgb(4, 4, 4) 0%, rgb(16, 16, 18) 91%);
 }
 footer a {
   margin: 3%;
@@ -302,6 +308,7 @@ footer a {
   border-radius: 20px;
   z-index: 1;
   transition: 0.5s;
+  margin-bottom: 4%;
 }
 .contenedor-promocion:hover {
   opacity: 0;
@@ -359,6 +366,7 @@ footer a {
   justify-content: center;
   width: 70%;
   margin-top: 10%;
+  margin-bottom: 5%;
   text-align: justify;
   border: 2px #00f7ff solid;
 }
