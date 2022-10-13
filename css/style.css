@@ -16,6 +16,7 @@ body {
   width: 50px;
 }
 
+/* HOLA */
 /* Header */
 .carousel-item {
   height: 65vh;
@@ -197,7 +198,7 @@ nav {
 @media screen and (min-width: 1480px) and (max-width: 2560px) {
   .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
     margin: 0.3%;
-    width: 400px;
+    width: 290px;
   }
 }
 
