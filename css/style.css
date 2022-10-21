@@ -144,10 +144,10 @@ nav {
     margin: 4.3%;
   }
 }
-@media only screen and (min-width: 961px) and (max-width: 1024px) {
+@media only screen and (min-width: 961px) and (max-width: 1479px) {
   .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
-    margin: 6%;
-    width: 200px;
+    margin: 1.5%;
+    width: 160px;
   }
 }
 @media screen and (min-width: 1480px) and (max-width: 2560px) {
@@ -315,10 +315,10 @@ nav {
     margin: 4.3%;
   }
 }
-@media only screen and (min-width: 961px) and (max-width: 1024px) {
+@media only screen and (min-width: 961px) and (max-width: 1479px) {
   .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
-    margin: 6%;
-    width: 200px;
+    margin: 1.5%;
+    width: 160px;
   }
 }
 @media screen and (min-width: 1480px) and (max-width: 2560px) {
