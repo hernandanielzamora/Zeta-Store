@@ -57,3 +57,22 @@
 .div-botones {
     @extend %button-responsive;
 }
+
+.btn-comprar {
+    @extend %button-card;
+    &:hover {
+        @include button-style(0.8 ease-in-out, #04c2f1, 0 0 1.5em #04c2f1)
+    }
+}
+
+.input-btn {
+    @extend %button-card;
+    &:hover {
+        @include button-style(0.8 ease-in-out, #04c2f1, 0 0 1.5em #04c2f1);
+    }
+}
+
+#input-btn {
+    @extend %button-card;
+    margin-top: 3%;
+}

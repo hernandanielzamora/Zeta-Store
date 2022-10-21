@@ -2,6 +2,16 @@
 @import "../base/mixins";
 
 /* Promociones (index.html) */
+.contenedor-prom {
+    display: flex;
+    justify-content: space-evenly;
+    @media screen and (max-width: 480px) {
+        justify-content: space-around;
+    }
+}
+
+
+
 .contenedor-seccion-promociones {
     margin-top: 10%;
 

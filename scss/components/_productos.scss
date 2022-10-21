@@ -5,6 +5,7 @@
 .contenedor {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
     @media screen and (max-width: 480px) {
         justify-content: space-around;
     }

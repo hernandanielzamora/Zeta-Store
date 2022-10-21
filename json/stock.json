@@ -1,0 +1,234 @@
+{
+    "pistolas": [
+        {
+            "dk": [
+                {
+                    "id": 1,
+                    "img": "../media/dk printstream.jpeg",
+                    "name": "DK | PRINTSTREAM",
+                    "float": 0.556,
+                    "status": "Bastante desgastado",
+                    "deliver": "Inmediata",
+                    "price": 7300,
+                    "quantity": 1
+                },
+                {
+                    "id": 2,
+                    "img": "../media/dk industria mecanica.png",
+                    "name": "DK | INDUSTRIA MECÁNICA",
+                    "float": 0.208,
+                    "status": "Algo desgastado",
+                    "deliver": "Inmediata",
+                    "price": 650,
+                    "quantity": 1
+                },
+                {
+                    "id": 3,
+                    "img": "../media/dk disciplina de gatillo.png",
+                    "name": "DK | DISCIPLINA DE GATILLO",
+                    "float": 0.245,
+                    "status": "Algo desgastado",
+                    "deliver": "Inmediata",
+                    "price": 100,
+                    "quantity": 1
+                }
+            ],
+            "p250": [
+                {
+                    "id": 4,
+                    "img": "../media/p250 nevermore.jpeg",
+                    "name": "P250 | NEVERMORE",
+                    "float": 0.13,
+                    "status": "Casi nuevo",
+                    "deliver": "Inmediata",
+                    "price": 120,
+                    "quantity": 1
+                },
+                {
+                    "id": 5,
+                    "img": "../media/p250 asimov.png",
+                    "name": "P250 | ASIMOV",
+                    "float": 0.477,
+                    "status": "Deplorable",
+                    "deliver": "Inmediata",
+                    "price": 300,
+                    "quantity": 1
+                }
+            ],
+            "usp": [
+                {
+                    "id": 6,
+                    "img": "../media/usp killconfirmed.jpeg",
+                    "name": "USP-S | MUERTE CONFIRMADA",
+                    "float": 0.431,
+                    "status": "Bastante desgastado",
+                    "deliver": "Inmediata",
+                    "price": 7580,
+                    "quantity": 1
+                },
+                {
+                    "id": 7,
+                    "img": "../media/usp cyrex.png",
+                    "name": "USP-S | Cyrex",
+                    "float": 0.105,
+                    "status": "Casi nuevo",
+                    "deliver": "Inmediata",
+                    "price": 340,
+                    "quantity": 1
+                },
+                {
+                    "id": 8,
+                    "img": "../media/usp loto negro.png",
+                    "name": "USP-S | LOTO NEGRO",
+                    "float": 0.119,
+                    "status": "Casi nuevo",
+                    "deliver": "Inmediata",
+                    "price": 120,
+                    "quantity": 1
+                }
+            ],
+            "cz75": [
+                {
+                    "id": 9,
+                    "img": "../media/cz eco.png",
+                    "name": "CZ75 | ECO",
+                    "float": 0.477,
+                    "status": "Algo Desgastado",
+                    "deliver": "Inmediata",
+                    "price": 300,
+                    "quantity": 1
+                }
+            ]
+        }
+    ],
+    "rifles": [
+        {
+            "ak": [
+                {
+                    "id": 10,
+                    "img": "../media/ak aquamarina.png",
+                    "name": "AK-47 | VENGANZA AQUAMARINA",
+                    "float": 0.429,
+                    "status": "Bastante desgastado",
+                    "deliver": "Inmediata",
+                    "price": 3200,
+                    "quantity": 1
+                },
+                {
+                    "id": 11,
+                    "img": "../media/ak pizarra.png",
+                    "name": "AK-47 | PIZARRA",
+                    "float": 0.093,
+                    "status": "Casi Nuevo",
+                    "deliver": "Inmediata",
+                    "price": 1000,
+                    "quantity": 1
+                },
+                {
+                    "id": 12,
+                    "img": "../media/ak frente brumoso.png",
+                    "name": "AK-47 | FRENTE BRUMOSO",
+                    "float": 0.527,
+                    "status": "Deplorable",
+                    "deliver": "Inmediata",
+                    "price": 2000,
+                    "quantity": 1
+                }
+            ],
+            "awp": [
+                {
+                    "id": 13,
+                    "img": "../media/awp wildfire.png",
+                    "name": "AWP | WILDIFRE",
+                    "float": 0.221,
+                    "status": "Algo Desgastado",
+                    "deliver": "Inmediata",
+                    "price": 10500,
+                    "quantity": 1
+                },
+                {
+                    "id": 14,
+                    "img": "../media/awp gatetes y perretes.png",
+                    "name": "AWP | Gatetes y Perretes",
+                    "float": 0.385,
+                    "status": "Bastante desgastado",
+                    "deliver": "Inmediata",
+                    "price": 300,
+                    "quantity": 1
+                }
+            ],
+            "m4a1-s": [
+                {
+                    "id": 15,
+                    "img": "../media/m4a4-s nitro.png",
+                    "name": "M4A1-S | Nitro",
+                    "float": 0.146,
+                    "status": "Casi nuevo",
+                    "deliver": "Inmediata",
+                    "price": 800,
+                    "quantity": 1
+                }
+            ],
+            "m4a4": [
+                {
+                    "id": 16,
+                    "img": "../media/m4a4 emperador.png",
+                    "name": "M4A4 | Emperador",
+                    "float": 0.217,
+                    "status": "Algo desgastado",
+                    "deliver": "Inmediata",
+                    "price": 2800,
+                    "quantity": 1
+                }
+            ],
+            "otros": [
+                {
+                    "id": 17,
+                    "img": "../media/famas conmemoracion.png",
+                    "name": "FAMAS | CONMEMORACIÓN",
+                    "float": 0.213,
+                    "status": "Algo desgastado",
+                    "deliver": "Inmediata",
+                    "price": 2300,
+                    "quantity": 1
+                },
+                {
+                    "id": 18,
+                    "img": "../media/ssg08 sueño febril.png",
+                    "name": "SSG-08 | SUEÑO FEBRIL",
+                    "float": 0.355,
+                    "status": "Algo Desgastado",
+                    "deliver": "Inmediata",
+                    "price": 70,
+                    "quantity": 1
+                }
+            ]
+        }
+    ],
+    "filler": [
+        {
+            "img": "../media/comingsoon.png",
+            "name": "Coming Soon",
+            "float": " - ",
+            "status": " - ",
+            "deliver": " - ",
+            "price": " - "
+        },
+        {
+            "img": "../media/comingsoon.png",
+            "name": "Coming Soon",
+            "float": " - ",
+            "status": " - ",
+            "deliver": " - ",
+            "price": " - "
+        },
+        {
+            "img": "../media/comingsoon.png",
+            "name": "Coming Soon",
+            "float": " - ",
+            "status": " - ",
+            "deliver": " - ",
+            "price": " - "
+        }
+    ]
+}

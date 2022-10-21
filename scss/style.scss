@@ -17,13 +17,14 @@ body {
     width: 50px;
 }
 
-/* HOLA */
 @import "components/header";
 @import "components/main";
 @import "components/faq";
+@import "../scss/components/cart";
 @import "../scss/components/productos";
 @import "../scss/base/buttons";
 @import "../scss/components/footer";
 @import "../scss/components/promocion";
 @import "../scss/components/conocenos";
 @import "../scss/components/venta";
+@import "../scss/components/checkout";

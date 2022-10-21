@@ -11,7 +11,8 @@
   <meta name="keywords"
     content="CSGO, Counter Strike, Counter Strike Global Offensive, Skins, Steam, Inventario, AWP, AK-47, M4A4">
   <meta property="og:title" content="ZETA STORE, las mejores skins al mejor precio." />
-  <meta property="og:description" content="Página web de ZETA STORE, una tienda online de skins de Counter Strike Global Ofensive, con los mejores precios y las mejores ofertas, para que armes tu inventario soñado y a tu gusto. Sabemos el enorme valor que puede tener un buen inventario." />
+  <meta property="og:description"
+    content="Página web de ZETA STORE, una tienda online de skins de Counter Strike Global Ofensive, con los mejores precios y las mejores ofertas, para que armes tu inventario soñado y a tu gusto. Sabemos el enorme valor que puede tener un buen inventario." />
   <meta property="og:image" content="https://zetastore.netlify.app/media/wallpaperconocenos.jpg" />
 
   <!-- Link AOS Animation -->
@@ -31,8 +32,8 @@
 
 </head>
 
-<body  data-aos="fade-down" style="background-image: url(media/wallpaper3.jpg); background-position:top center;">
-  
+<body data-aos="fade-down" style="background-image: url(media/wallpaper3.jpg); background-position:top center;">
+
   <!-- Inicio Header / NavBar -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -103,7 +104,7 @@
 
 
   <!-- Sección Botones -->
-  <main class="main" >
+  <main class="main">
     <!-- Menú de secciones + botones -->
     <section data-aos="fade-down">
       <div>
@@ -123,11 +124,14 @@
 
   <!-- Inicio Sección Muestra -->
   <section style="background-image: url(media/wallpaper2.jpg); background-position:top center;">
-    <h2 class="main__minititle" data-aos="fade-down" style="margin-top: 5%;">Conocé algunas de las mejores armas del catálogo</h2>
-    <h3 class="main__minititle" data-aos="fade-down">Poné tu mouse sobre la imágen y buscá tu skin en nuestro catálogo!</h3>
-    <section class="contenedor contenedor-seccion-promociones" data-aos="fade-down" >
-      <img src="media/wallpaper-agentes-enfrentados.png" alt="Imágen Agentes Counter Strike Global Offensive" style="z-index: 1;" class="contenedor-promocion">
-      <div class="contenedor contenedor-promocion-abajo">
+    <h2 class="main__minititle" data-aos="fade-down" style="margin-top: 5%;">Conocé algunas de las mejores armas del
+      catálogo</h2>
+    <h3 class="main__minititle" data-aos="fade-down">Poné tu mouse sobre la imágen y buscá tu skin en nuestro catálogo!
+    </h3>
+    <section class="contenedor-prom contenedor-seccion-promociones" data-aos="fade-down">
+      <img src="media/wallpaper-agentes-enfrentados.png" alt="Imágen Agentes Counter Strike Global Offensive"
+        style="z-index: 1;" class="contenedor-promocion">
+      <div class="contenedor-prom contenedor-promocion-abajo">
         <div class="card bg-dark card-promocion" style="width: 18rem;">
           <a href="https://ibb.co/3YSP5SD" target="_blank"><img src="media/dk printstream.jpeg" class="card-img-top"
               alt="DK | Printstream"></a>
@@ -141,8 +145,8 @@
           </ul>
         </div>
         <div class="card bg-dark card-promocion cardprom-2" style="width: 18rem;">
-          <a href="https://i.imgur.com/gTO7435.png" target="_blank"><img src="media/awp wildfire.png" class="card-img-top"
-              alt="AWP WILDFIRE"></a>
+          <a href="https://i.imgur.com/gTO7435.png" target="_blank"><img src="media/awp wildfire.png"
+              class="card-img-top" alt="AWP WILDFIRE"></a>
           <div class="card-body bg-dark card-promocion-title">
             <h5 class="card-title">AWP | WILDIFRE</h5>
           </div>
@@ -168,6 +172,36 @@
   </section>
   <!-- Fin Sección Muestra -->
 
+  <!-- OFFCANVAS CART -->
+  <section>
+    <button class="btn btn-cart-body" type="button" data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img
+        src="https://img.icons8.com/nolan/64/counter-strike-global-offensive.png" />
+      <p class="cart__title" id="cart-button">(0)</p>
+    </button>
+
+    <div class="offcanvas  offcanvas-start bg-dark cart-container" data-bs-scroll="true" tabindex="-1"
+      id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h5 class="main__minititle" id="offcanvasWithBothOptionsLabel">Carrito</h5>
+        <p id="inner-cart-button">(0)</p>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body cart-container" id="cart-container">
+      </div>
+      <div class="prices__div">
+        <p class="cart__title">IVA(21% del precio de/las arma/s):<span id="ivaPrice"> 0</span></p>
+        <p class="cart__title">Precio Total: <span id="totalPrice"> 0</span></p>
+
+      </div>
+      <div>
+        <button type="button" class="btn btn-dark btn-cart text-center" id="clear-cart"><img
+            src="../media/deleteCart.png" /></button>
+        <button type="button" class="btn btn-dark btn-cart text-center" id="btn-checkout">Comprar</button>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Footer -->
   <footer class="text-center text-white">
@@ -182,7 +216,8 @@
         <a href="https://twitter.com/store_zeta" target="_blank"><ion-icon name="logo-twitter" size="large" style="color: #00f7ff;"></ion-icon></a>
 
         <!-- Whatsappp -->
-        <a href="https://wa.me/5493886867663?text=Hola%20te%20hablo%20desde%20la%20pág%20del%20store" target="_blank"><ion-icon name="logo-whatsapp" size="large" style="color: #00f7ff;"></ion-icon></a>
+        <a href="https://wa.me/5493886867663?text=Hola%20te%20hablo%20desde%20la%20pág%20del%20store" target="_blank"><ion-icon name="logo-whatsapp" size="large" style="color: #00f7ff;"></ion-icon>
+        </a>
 
       </section>
       <!-- Section: Social media -->

@@ -1,0 +1,63 @@
+@import "../base/extends";
+@import "../base/mixins";
+
+/* OFFCANVAS CART */
+
+.btn-cart-body {
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+    border: 2px solid #00f7ff;
+    &:hover {
+        transition: 0.5s ease-in-out;
+        background: transparent;
+        box-shadow: 0 0 1em #00f7ff;
+        border: 2px solid #04a6ac;
+    }
+}
+
+.cart__title {
+    text-shadow: 1px 1px 20px #00fcf5;
+    color: #00f7ff;
+    margin: 2%;
+}
+
+.prices__div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#inner-cart-button{
+    text-shadow: 1px 1px 20px #00fcf5;
+    color: #00f7ff;
+    margin: 2%;
+}
+
+.btn-cart {
+    margin: 1%;
+    width: 180px;
+    height: 60px;
+    cursor: crosshair;
+    background: transparent;
+    border: 1px solid #a0dddb; 
+    outline: none;
+    &:hover {
+        transition: 0.5s ease-in-out;
+        background: transparent;
+        box-shadow: 0 0 1em #00f7ff;
+        border: 2px solid #04a6ac;
+    }
+}
+
+.btn-cart-card {
+    margin-left: 40%;
+    width: 60px;
+    height: 45px;
+    &:hover {
+        transition: 0.5s ease-in-out;
+        background: transparent;
+        box-shadow: 0 0 1em #e22b2b;
+        border: 2px solid #e22b2b;
+    }
+}

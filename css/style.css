@@ -16,7 +16,6 @@ body {
   width: 50px;
 }
 
-/* HOLA */
 /* Header */
 .carousel-item {
   height: 65vh;
@@ -130,10 +129,137 @@ nav {
   width: 50%;
 }
 
+.btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+  margin: 5% 1.3%;
+  width: 180px;
+  height: 60px;
+  cursor: crosshair;
+  background: transparent;
+  border: 1px solid #a0dddb;
+  outline: none;
+  transition: 0.7s ease-in-out;
+}
+@media only screen and (min-width: 469px) and (max-width: 960px) {
+  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+    margin: 4.3%;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+    margin: 6%;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1480px) and (max-width: 2560px) {
+  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+    margin: 0.3%;
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .div-botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+#input-btn, .input-btn, .btn-comprar {
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  cursor: crosshair;
+  background: transparent;
+  border: 1px solid #a0dddb;
+  outline: none;
+  transition: 0.7s ease-in-out;
+}
+@media only screen and (min-width: 469px) and (max-width: 960px) {
+  #input-btn, .input-btn, .btn-comprar {
+    margin: 4.3%;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+  #input-btn, .input-btn, .btn-comprar {
+    margin: 6%;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1480px) and (max-width: 2560px) {
+  #input-btn, .input-btn, .btn-comprar {
+    margin: 0.3%;
+    width: 225px;
+  }
+}
+
+/* OFFCANVAS CART */
+.btn-cart-body {
+  position: fixed;
+  bottom: 0px;
+  left: 10px;
+  border: 2px solid #00f7ff;
+}
+.btn-cart-body:hover {
+  transition: 0.5s ease-in-out;
+  background: transparent;
+  box-shadow: 0 0 1em #00f7ff;
+  border: 2px solid #04a6ac;
+}
+
+.cart__title {
+  text-shadow: 1px 1px 20px #00fcf5;
+  color: #00f7ff;
+  margin: 2%;
+}
+
+.prices__div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#inner-cart-button {
+  text-shadow: 1px 1px 20px #00fcf5;
+  color: #00f7ff;
+  margin: 2%;
+}
+
+.btn-cart {
+  margin: 1%;
+  width: 180px;
+  height: 60px;
+  cursor: crosshair;
+  background: transparent;
+  border: 1px solid #a0dddb;
+  outline: none;
+}
+.btn-cart:hover {
+  transition: 0.5s ease-in-out;
+  background: transparent;
+  box-shadow: 0 0 1em #00f7ff;
+  border: 2px solid #04a6ac;
+}
+
+.btn-cart-card {
+  margin-left: 40%;
+  width: 60px;
+  height: 45px;
+}
+.btn-cart-card:hover {
+  transition: 0.5s ease-in-out;
+  background: transparent;
+  box-shadow: 0 0 1em #e22b2b;
+  border: 2px solid #e22b2b;
+}
+
 /* Products */
 .contenedor {
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
 }
 @media screen and (max-width: 480px) {
   .contenedor {
@@ -212,6 +338,34 @@ nav {
   }
 }
 
+#input-btn, .input-btn, .btn-comprar {
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  cursor: crosshair;
+  background: transparent;
+  border: 1px solid #a0dddb;
+  outline: none;
+  transition: 0.7s ease-in-out;
+}
+@media only screen and (min-width: 469px) and (max-width: 960px) {
+  #input-btn, .input-btn, .btn-comprar {
+    margin: 4.3%;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+  #input-btn, .input-btn, .btn-comprar {
+    margin: 6%;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1480px) and (max-width: 2560px) {
+  #input-btn, .input-btn, .btn-comprar {
+    margin: 0.3%;
+    width: 225px;
+  }
+}
+
 /* BOTONES */
 .btn-index:hover {
   transition: 0.8s ease-in-out;
@@ -255,6 +409,22 @@ nav {
   box-shadow: 0 0 1.5em #524939;
 }
 
+.btn-comprar:hover {
+  transition: 0.8 ease-in-out;
+  background: #04c2f1;
+  box-shadow: 0 0 1.5em #04c2f1;
+}
+
+.input-btn:hover {
+  transition: 0.8 ease-in-out;
+  background: #04c2f1;
+  box-shadow: 0 0 1.5em #04c2f1;
+}
+
+#input-btn {
+  margin-top: 3%;
+}
+
 /* Footer */
 .footer__whatsapp {
   position: fixed;
@@ -272,6 +442,16 @@ footer a {
 }
 
 /* Promociones (index.html) */
+.contenedor-prom {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 480px) {
+  .contenedor-prom {
+    justify-content: space-around;
+  }
+}
+
 .contenedor-seccion-promociones {
   margin-top: 10%;
 }
@@ -392,6 +572,27 @@ footer a {
   .contenedor-venta .imagen-venta img {
     width: 100%;
   }
+}
+
+.div-checkout-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.div-checkout-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.input-text {
+  width: 20%;
+  height: auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
