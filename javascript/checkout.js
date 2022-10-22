@@ -70,7 +70,7 @@ const cardCheckOut = () => {
                                 <li class="list-group-item bg-dark">Cantidad: <span id="">${product.quantity}</span></li>
                             </ul>`
         checkoutCointainer.appendChild(card);
-        mensaje += `Producto ${contador}: ${product.name}, `
+        mensaje += `Producto ${contador}: ${product.name} x ${product.quantity}, `
         contador++;
     })
     // discount()

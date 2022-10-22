@@ -129,7 +129,7 @@ nav {
   width: 50%;
 }
 
-.btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+#input-btn, .input-btn, .btn-comprar, .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
   margin: 5% 1.3%;
   width: 180px;
   height: 60px;
@@ -140,18 +140,18 @@ nav {
   transition: 0.7s ease-in-out;
 }
 @media only screen and (min-width: 469px) and (max-width: 960px) {
-  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+  #input-btn, .input-btn, .btn-comprar, .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
     margin: 4.3%;
   }
 }
 @media only screen and (min-width: 961px) and (max-width: 1479px) {
-  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+  #input-btn, .input-btn, .btn-comprar, .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
     margin: 1.5%;
     width: 160px;
   }
 }
 @media screen and (min-width: 1480px) and (max-width: 2560px) {
-  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+  #input-btn, .input-btn, .btn-comprar, .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
     margin: 0.3%;
     width: 290px;
   }
@@ -164,34 +164,6 @@ nav {
     justify-content: center;
     align-items: center;
     align-content: center;
-  }
-}
-
-#input-btn, .input-btn, .btn-comprar {
-  margin: auto;
-  width: 100%;
-  height: 60px;
-  cursor: crosshair;
-  background: transparent;
-  border: 1px solid #a0dddb;
-  outline: none;
-  transition: 0.7s ease-in-out;
-}
-@media only screen and (min-width: 469px) and (max-width: 960px) {
-  #input-btn, .input-btn, .btn-comprar {
-    margin: 4.3%;
-  }
-}
-@media only screen and (min-width: 961px) and (max-width: 1024px) {
-  #input-btn, .input-btn, .btn-comprar {
-    margin: 6%;
-    width: 200px;
-  }
-}
-@media screen and (min-width: 1480px) and (max-width: 2560px) {
-  #input-btn, .input-btn, .btn-comprar {
-    margin: 0.3%;
-    width: 225px;
   }
 }
 
@@ -300,7 +272,7 @@ nav {
   }
 }
 
-.btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+#input-btn, .input-btn, .btn-comprar, .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
   margin: 5% 1.3%;
   width: 180px;
   height: 60px;
@@ -311,18 +283,18 @@ nav {
   transition: 0.7s ease-in-out;
 }
 @media only screen and (min-width: 469px) and (max-width: 960px) {
-  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+  #input-btn, .input-btn, .btn-comprar, .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
     margin: 4.3%;
   }
 }
 @media only screen and (min-width: 961px) and (max-width: 1479px) {
-  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+  #input-btn, .input-btn, .btn-comprar, .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
     margin: 1.5%;
     width: 160px;
   }
 }
 @media screen and (min-width: 1480px) and (max-width: 2560px) {
-  .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
+  #input-btn, .input-btn, .btn-comprar, .btn-guantes, .btn-subfusiles, .btn-agentes, .btn-cuchillos, .btn-pistolas, .btn-rifles, .btn-index {
     margin: 0.3%;
     width: 290px;
   }
@@ -335,34 +307,6 @@ nav {
     justify-content: center;
     align-items: center;
     align-content: center;
-  }
-}
-
-#input-btn, .input-btn, .btn-comprar {
-  margin: auto;
-  width: 100%;
-  height: 60px;
-  cursor: crosshair;
-  background: transparent;
-  border: 1px solid #a0dddb;
-  outline: none;
-  transition: 0.7s ease-in-out;
-}
-@media only screen and (min-width: 469px) and (max-width: 960px) {
-  #input-btn, .input-btn, .btn-comprar {
-    margin: 4.3%;
-  }
-}
-@media only screen and (min-width: 961px) and (max-width: 1024px) {
-  #input-btn, .input-btn, .btn-comprar {
-    margin: 6%;
-    width: 200px;
-  }
-}
-@media screen and (min-width: 1480px) and (max-width: 2560px) {
-  #input-btn, .input-btn, .btn-comprar {
-    margin: 0.3%;
-    width: 225px;
   }
 }
 
