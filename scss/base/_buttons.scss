@@ -59,7 +59,7 @@
 }
 
 .btn-comprar {
-    @extend %button;
+    @extend %button-card;
     &:hover {
         @include button-style(0.8 ease-in-out, #04c2f1, 0 0 1.5em #04c2f1)
     }
